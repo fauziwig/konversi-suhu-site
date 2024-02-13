@@ -34,5 +34,5 @@ document.getElementById("tempForm").addEventListener("submit", function(event) {
     }
     
     document.getElementById("conversionResult").textContent = result;
-    document.getElementById("resultCalc").textContent = "(" + temperature + formulaCalc + " = "+ result;
+    document.getElementById("resultCalc").textContent = "(" + temperature + formulaCalc + " = "+ result; 
 });
